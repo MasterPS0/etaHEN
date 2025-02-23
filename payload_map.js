@@ -70,8 +70,7 @@ const payload_map = [
         author: "kstuff_5.10",
         projectSource: "",
         binarySource: "",
-        version: "test",
-        supportedFirmwares: ["5.10"],
+        version: "00",
     },
     {
         displayTitle: "Byepervisor HEN",
