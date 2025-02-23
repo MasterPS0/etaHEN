@@ -63,15 +63,25 @@ const payload_map = [
         version: "3e6053c",
         supportedFirmwares: ["3.", "4."]
     },
+	    {
+        displayTitle: "kstuff_5.10",
+        description: "FPKG enabler",
+        fileName: "kstuff_5.10.elf",
+        author: "kstuff_5.10",
+        projectSource: "",
+        binarySource: "",
+        version: "3e6053c",
+        supportedFirmwares: ["5.00", "5.02", "5.10", "5.55"]
+    },
     {
         displayTitle: "Byepervisor HEN",
         description: "FPKG enabler",
         fileName: "byepervisor.elf",
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
         projectSource: "https://github.com/EchoStretch/Byepervisor",
-        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/11946215784",
-        version: "5a0d933",
-        supportedFirmwares: ["1.00", "1.01", "1.02", "1.05", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
+        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/12567456429",
+        version: "47a6ae7",
+        supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
     },
     {
@@ -89,9 +99,9 @@ const payload_map = [
         description: "Uses john-tornblom's elfldr. Custom homebrew loader. Runs on port 8080.",
         fileName: "websrv.elf",
         author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/download/v0.16/Payload.zip",
-        version: "0.16",
+        projectSource: "https://github.com/ps5-payload-dev/websrv",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.18",
+        version: "0.18",
         toPort: 9021
     },
     {
@@ -100,8 +110,8 @@ const payload_map = [
         fileName: "ftpsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12400108209",
-        version: "0.11",
+        binarySource: "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.11.1",
+        version: "0.11.1",
         toPort: 9021
     },
     {
@@ -109,9 +119,9 @@ const payload_map = [
         description: "Uses john-tornblom's elfldr. Klog server. Runs on port 3232.",
         fileName: "klogsrv.elf",
         author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/klogsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12400108209",
-        version: "0.5",
+        projectSource: "https://github.com/ps5-payload-dev/klogsrv",
+        binarySource: "https://github.com/ps5-payload-dev/klogsrv/releases/tag/v0.5.1",
+        version: "0.5.1",
         toPort: 9021
     },
     {
@@ -119,9 +129,9 @@ const payload_map = [
         description: "Uses john-tornblom's elfldr. Telnet shell server. Runs on port 2323.",
         fileName: "shsrv.elf",
         author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/shsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12400108209",
-        version: "0.12",
+        projectSource: "https://github.com/ps5-payload-dev/shsrv",
+        binarySource: "https://github.com/ps5-payload-dev/shsrv/releases/tag/v0.13",
+        version: "0.13",
         toPort: 9021
     },
     {
@@ -129,9 +139,9 @@ const payload_map = [
         description: "Uses john-tornblom's elfldr. GDB server. Runs on port 2159.",
         fileName: "gdbsrv.elf",
         author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/gdbsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12400108209",
-        version: "0.4-1",
+        projectSource: "https://github.com/ps5-payload-dev/gdbsrv",
+        binarySource: "https://github.com/ps5-payload-dev/gdbsrv/releases/tag/v0.5",
+        version: "0.5",
         toPort: 9021
     },
     {
