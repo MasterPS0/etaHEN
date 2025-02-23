@@ -71,7 +71,7 @@ const payload_map = [
         projectSource: "",
         binarySource: "",
         version: "test",
-        supportedFirmwares: ["5."]
+        supportedFirmwares: ["5.10"],
     },
     {
         displayTitle: "Byepervisor HEN",
