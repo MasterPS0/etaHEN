@@ -63,15 +63,15 @@ const payload_map = [
         version: "3e6053c",
         supportedFirmwares: ["3.", "4."]
     },
-	    {
+	{
         displayTitle: "kstuff_5.10",
         description: "FPKG enabler",
         fileName: "kstuff_5.10.elf",
         author: "kstuff_5.10",
         projectSource: "",
         binarySource: "",
-        version: "3e6053c",
-        supportedFirmwares: ["5.00", "5.02", "5.10", "5.55"]
+        version: "test",
+        supportedFirmwares: ["5."]
     },
     {
         displayTitle: "Byepervisor HEN",
