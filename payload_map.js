@@ -70,7 +70,7 @@ const payload_map = [
         author: "etaHEN20",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "5.10",
+        version: "2.0",
 		toPort: 9021
     },
 		{
@@ -80,7 +80,7 @@ const payload_map = [
         author: "etaHEN20b",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "5.10",
+        version: "2.0b",
 		toPort: 9021
     },
 		{
@@ -90,7 +90,7 @@ const payload_map = [
         author: "etaHEN19b",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "5.10",
+        version: "1.9b",
 		toPort: 9021
     },
 	{
