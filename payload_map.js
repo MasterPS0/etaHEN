@@ -54,7 +54,7 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ps5-kstuff",
+        displayTitle: "ps5-kstuff",
         description: "FPKG enabler",
         fileName: "ps5-kstuff.bin",
         author: "sleirsgoevy",
@@ -64,7 +64,7 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	{
-        displayTitle: " kstuff_5_10",
+        displayTitle: "kstuff_5_10",
         description: "FPKG enabler",
         fileName: "kstuff_5_10.elf",
         author: "kstuff_5.10",
@@ -74,7 +74,7 @@ const payload_map = [
 		toPort: 9021
     },
     {
-        displayTitle: "Byepervisor HEN",
+        displayTitle: "Byepervisor HEN",
         description: "FPKG enabler",
         fileName: "byepervisor.elf",
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
