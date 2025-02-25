@@ -11,7 +11,7 @@
 body {
     user-select: none;
     -webkit-user-select: none;
-    background-color: rgb(43, 43, 45);
+    background-color: rgb(20, 20, 21);
     color: #0078b3;
     font-family: Arial;
 
@@ -50,7 +50,7 @@ a:focus {
     min-width: 5rem;
     border-radius: 1rem;
     width: 30%;
-    background-color: var(--primary-color);
+    background-color: #0078b3;
     border: none;
     color: #fff;
     font-size: 1.3rem;
@@ -203,7 +203,7 @@ a:focus {
     font-family: monospace;
     white-space: pre;
     font-size: 1.2rem;
-    color: #0078b3;
+    color: #d2e6f1;
     background-color: inherit;
     border: var(--primary-color) 1px solid;
     border-radius: 5px;
@@ -230,7 +230,10 @@ a:focus {
 .justify-content-center { justify-content: center; }
 
 .text-center { text-align: center; }
-.fw-bold { font-weight: 700; }
+.fw-bold { font-weight: 700;
+    background-color: #0078b3;
+ }
+
 .text-secondary {
     color: #959595;
     margin: 0;
