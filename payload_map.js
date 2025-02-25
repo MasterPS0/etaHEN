@@ -64,6 +64,16 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	{
+        displayTitle: "etaHEN20",
+        description: "AIO HEN",
+        fileName: "etaHEN20.bin",
+        author: "etaHEN20",
+        projectSource: "",
+        binarySource: "",
+        version: "5.10",
+		toPort: 9021
+    },
+	{
         displayTitle: "kstuff_5_10",
         description: "FPKG enabler",
         fileName: "kstuff_5_10.elf",
