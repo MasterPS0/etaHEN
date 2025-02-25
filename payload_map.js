@@ -64,7 +64,7 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	{
-        displayTitle: "kstuff_5_10",
+        displayTitle: " kstuff_5_10",
         description: "FPKG enabler",
         fileName: "kstuff_5_10.elf",
         author: "kstuff_5.10",
