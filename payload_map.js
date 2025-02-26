@@ -64,16 +64,6 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	{
-        displayTitle: "etaHEN20",
-        description: "AIO HEN",
-        fileName: "etaHEN20.bin",
-        author: "etaHEN20",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "2.0",
-		toPort: 9021
-    },
-		{
         displayTitle: "etaHEN20b",
         description: "AIO HEN",
         fileName: "etaHEN20b.bin",
@@ -81,16 +71,6 @@ const payload_map = [
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-		toPort: 9021
-    },
-		{
-        displayTitle: "etaHEN19b",
-        description: "AIO HEN",
-        fileName: "etaHEN19b.bin",
-        author: "etaHEN19b",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
 		toPort: 9021
     },
 	{
