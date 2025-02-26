@@ -74,10 +74,10 @@ const payload_map = [
 		toPort: 9021
     },
 	{
-        displayTitle: "kstuff_5_10",
+        displayTitle: "kstuff",
         description: "FPKG enabler",
-        fileName: "kstuff_5_10.elf",
-        author: "kstuff_5.10",
+        fileName: "kstuff.elf",
+        author: "kstuff",
         projectSource: "",
         binarySource: "",
         version: "5.10",
