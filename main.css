@@ -50,7 +50,7 @@ a:focus {
     min-width: 5rem;
     border-radius: 1rem;
     width: 50%;
-    background-color: var(--primary-color);
+    background-color: rgb(0,94,214);
     border: none;
     color: #fff;
     font-size: 1.3rem;
@@ -202,7 +202,7 @@ a:focus {
     font-family: monospace;
     white-space: pre;
     font-size: 1.2rem;
-    color: #005ed6;
+    color: #0091FF;
     background-color: inherit;
     border: var(--primary-color) 1px solid;
     border-radius: 5px;
