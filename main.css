@@ -12,7 +12,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
     background-color: rgb(14, 14, 20);
-    color: white;
+    color: #005ed6;
     font-family: Arial;
 
     display: grid;
@@ -202,7 +202,7 @@ a:focus {
     font-family: monospace;
     white-space: pre;
     font-size: 1.2rem;
-    color: #fff;
+    color: #005ed6;
     background-color: inherit;
     border: var(--primary-color) 1px solid;
     border-radius: 5px;
