@@ -133,7 +133,7 @@ function registerAppCacheEventHandlers() {
 
     if (document.documentElement.hasAttribute("manifest")) {
         if (!navigator.onLine) {
-            createOrUpdateAppCacheToast('Offline. ', 'utf-8', 2000);
+            createOrUpdateAppCacheToast('Offline.', 2000);
         } else {
             // this is redundant
             createOrUpdateAppCacheToast("Checking for updates...");
@@ -149,13 +149,13 @@ function registerAppCacheEventHandlers() {
     }, false);
 
     appCache.addEventListener('downloading', function (e) {
-        createOrUpdateAppCacheToast('Downloading new cache... ', 'utf-8');
+        createOrUpdateAppCacheToast('Downloading new cache... ');
     }, false);
 
     appCache.addEventListener('error', function (e) {
         // only show error toast if we're online
         if (navigator.onLine) {
-            createOrUpdateAppCacheToast('Error while caching site.  ', 'utf-8', 5000);
+            createOrUpdateAppCacheToast('Error while caching site.  ', 5000);
         } else {
             createOrUpdateAppCacheToast('Offline.', 2000);
         }
@@ -172,7 +172,7 @@ function registerAppCacheEventHandlers() {
     appCache.addEventListener('progress', function (e) {
         let percentage = Math.round((e.loaded / e.total) * 100);
 
-        createOrUpdateAppCacheToast('Downloading new cache...  ', 'utf-8', + percentage + '%');
+        createOrUpdateAppCacheToast('Downloading new cache...  ' + percentage + '%');
 
         // the last item takes an unreasonably long time to complete (with a big update)
         // ig its doing some extra stuff before the last event is fired
@@ -184,7 +184,7 @@ function registerAppCacheEventHandlers() {
 
     appCache.addEventListener('updateready', function (e) {
         if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-            createOrUpdateAppCacheToast('The site was updated. Refresh to switch to updated version ', 'utf-8');
+            createOrUpdateAppCacheToast('The site was updated. Refresh to switch to updated version ');
         }
     }, false);
 }
