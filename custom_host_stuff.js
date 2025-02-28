@@ -149,13 +149,13 @@ function registerAppCacheEventHandlers() {
     }, false);
 
     appCache.addEventListener('downloading', function (e) {
-        createOrUpdateAppCacheToast('Downloading new cache... ');
+        createOrUpdateAppCacheToast('Downloading new cache...');
     }, false);
 
     appCache.addEventListener('error', function (e) {
         // only show error toast if we're online
         if (navigator.onLine) {
-            createOrUpdateAppCacheToast('Error while caching site.  ', 5000);
+            createOrUpdateAppCacheToast('Error while caching site. ', 5000);
         } else {
             createOrUpdateAppCacheToast('Offline.', 2000);
         }
@@ -172,7 +172,7 @@ function registerAppCacheEventHandlers() {
     appCache.addEventListener('progress', function (e) {
         let percentage = Math.round((e.loaded / e.total) * 100);
 
-        createOrUpdateAppCacheToast('Downloading new cache...  ' + percentage + '%');
+        createOrUpdateAppCacheToast('Downloading new cache...' + percentage + '%');
 
         // the last item takes an unreasonably long time to complete (with a big update)
         // ig its doing some extra stuff before the last event is fired

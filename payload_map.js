@@ -64,7 +64,7 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	{
-        displayTitle: "? etaHEN20b",
+        displayTitle: "etaHEN20b", 
         description: "AIO HEN",
         fileName: "etaHEN20b.bin",
         author: "etaHEN20b",
