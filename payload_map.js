@@ -83,6 +83,16 @@ const payload_map = [
         version: "5.10",
 		toPort: 9021
     },
+	{
+        displayTitle: "sflash",
+        description: "PS5 IDPS",
+        fileName: "sflash_test.elf",
+        author: "PS5 IDPS",
+        projectSource: "",
+        binarySource: "",
+        version: "5.10",
+		toPort: 9021
+    },
     {
         displayTitle: "Byepervisor HEN",
         description: "FPKG enabler",
