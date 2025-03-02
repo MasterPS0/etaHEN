@@ -67,7 +67,7 @@ const payload_map = [
         displayTitle: "etaHEN20b", 
         description: "AIO HEN",
         fileName: "etaHEN20b.bin",
-        author: "etaHEN20b",
+        author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
@@ -83,11 +83,21 @@ const payload_map = [
         version: "5.10",
 		toPort: 9021
     },
+		{
+        displayTitle: "PID",
+        description: "PS5 IDPS",
+        fileName: "pid.elf",
+        author: "AlAzif",
+        projectSource: "",
+        binarySource: "",
+        version: "5.10",
+		toPort: 9021
+    },
 	{
         displayTitle: "sflash",
         description: "PS5 IDPS",
         fileName: "sflash_test.elf",
-        author: "PS5 IDPS",
+        author: "LightningMods",
         projectSource: "",
         binarySource: "",
         version: "5.10",
