@@ -74,14 +74,14 @@ const payload_map = [
 		toPort: 9021
     },
 	{
-        displayTitle: "kstuff50x",
+        displayTitle: "kstuff550",
         description: "FPKG enabler",
-        fileName: "kstuff50x.elf",
+        fileName: "kstuff550.elf",
         author: "kstuff50x",
         projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
         binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
-        version: "50x",
-        supportedFirmwares: ["5.00", "5.02"],
+        version: "5.50",
+        supportedFirmwares: ["5.50"],
 		toPort: 9021
     },
 	{
