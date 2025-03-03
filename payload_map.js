@@ -77,7 +77,7 @@ const payload_map = [
         displayTitle: "kstuff550",
         description: "FPKG enabler",
         fileName: "kstuff550.elf",
-        author: "kstuff50x",
+        author: "kstuff550",
         projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
         binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
         version: "5.50",
