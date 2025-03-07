@@ -144,6 +144,17 @@ const payload_map = [
         version: "0.11.1",
         toPort: 9021
     },
+	
+	    {
+        displayTitle: "airpsx",
+        description: "elfldr. airpsx server. Runs on port 1214.",
+        fileName: "airpsx.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/barisyild/airpsx/releases",
+        binarySource: "https://github.com/barisyild/airpsx/releases",
+        version: "0.9",
+        toPort: 9021
+    },
     {
         displayTitle: "klogsrv",
         description: "Uses john-tornblom's elfldr. Klog server. Runs on port 3232.",
