@@ -152,7 +152,7 @@ const payload_map = [
         author: "Airpsx",
         projectSource: "https://github.com/barisyild/airpsx/releases",
         binarySource: "https://github.com/barisyild/airpsx/releases",
-        version: "0.9",
+        version: "0.5",
         toPort: 9021
     },
     {
