@@ -146,10 +146,10 @@ const payload_map = [
     },
 	
 	    {
-        displayTitle: "airpsx",
+        displayTitle: "Airpsx",
         description: "elfldr. airpsx server. Runs on port 1214.",
         fileName: "airpsx.elf",
-        author: "john-tornblom",
+        author: "Airpsx",
         projectSource: "https://github.com/barisyild/airpsx/releases",
         binarySource: "https://github.com/barisyild/airpsx/releases",
         version: "0.9",
