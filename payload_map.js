@@ -83,7 +83,16 @@ const payload_map = [
         version: "5.10",
 		toPort: 9021
     },
-		{
+	{
+        displayTitle: "spoofer",
+        description: "PS4 SDK 99",
+        fileName: "spoofer.elf",
+        author: "spoofer",
+        projectSource: "",
+        binarySource: "",
+		toPort: 9021
+    },
+	{
         displayTitle: "PID",
         description: "PS5 IDPS",
         fileName: "pid.elf",
