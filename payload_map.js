@@ -93,6 +93,26 @@ const payload_map = [
 		toPort: 9021
     },
 	{
+        displayTitle: "websrv",
+        description: "Uses john-tornblom's elfldr. Custom homebrew loader. Runs on port 8080.",
+        fileName: "websrv.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/ps5-payload-dev/websrv",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.18",
+        version: "0.18",
+        toPort: 9021
+    },
+    {
+        displayTitle: "ftpsrv",
+        description: "Uses john-tornblom's elfldr. FTP server. Runs on port 2121.",
+        fileName: "ftpsrv.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
+        binarySource: "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.11.1",
+        version: "0.11.1",
+        toPort: 9021
+    },
+	{
         displayTitle: "PID",
         description: "PS5 IDPS",
         fileName: "pid.elf",
@@ -132,28 +152,7 @@ const payload_map = [
         binarySource: "https://github.com/illusion0001/libhijacker-game-patch/releases/tag/1.160-75ab26a3",
         version: "1.160",
         supportedFirmwares: ["3.", "4."]
-    },
-    {
-        displayTitle: "websrv",
-        description: "Uses john-tornblom's elfldr. Custom homebrew loader. Runs on port 8080.",
-        fileName: "websrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.18",
-        version: "0.18",
-        toPort: 9021
-    },
-    {
-        displayTitle: "ftpsrv",
-        description: "Uses john-tornblom's elfldr. FTP server. Runs on port 2121.",
-        fileName: "ftpsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.11.1",
-        version: "0.11.1",
-        toPort: 9021
-    },
-	
+    },	
 	    {
         displayTitle: "Airpsx",
         description: "elfldr. airpsx server. Runs on port 1214.",
