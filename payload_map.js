@@ -74,7 +74,7 @@ const payload_map = [
 		supportedFirmwares: ["5.10"],
 		toPort: 9021
     },
-		{
+	{
         displayTitle: "etaHEN20b", 
         description: "AIO HEN 5.50",
         fileName: "etaHEN20b550.bin",
@@ -93,15 +93,6 @@ const payload_map = [
         projectSource: "",
         binarySource: "",
         version: "5.10",
-		toPort: 9021
-    },
-	{
-        displayTitle: "spoofer",
-        description: "PS4 SDK 99",
-        fileName: "spoofer.elf",
-        author: "spoofer",
-        projectSource: "",
-        binarySource: "",
 		toPort: 9021
     },
 	{
@@ -165,16 +156,6 @@ const payload_map = [
         version: "1.160",
         supportedFirmwares: ["3.", "4."]
     },	
-	    {
-        displayTitle: "Airpsx",
-        description: "elfldr. airpsx server. Runs on port 1214.",
-        fileName: "airpsx.elf",
-        author: "Airpsx",
-        projectSource: "https://github.com/barisyild/airpsx/releases",
-        binarySource: "https://github.com/barisyild/airpsx/releases",
-        version: "0.10",
-        toPort: 9021
-    },
     {
         displayTitle: "klogsrv",
         description: "Uses john-tornblom's elfldr. Klog server. Runs on port 3232.",
