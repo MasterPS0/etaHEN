@@ -75,7 +75,7 @@ const payload_map = [
 		toPort: 9021
     },
 	{
-        displayTitle: "etaHEN20b", 
+        displayTitle: "etaHEN20b 5.50", 
         description: "AIO HEN 5.50",
         fileName: "etaHEN20b550.bin",
         author: "LightningMods",
@@ -96,10 +96,10 @@ const payload_map = [
 		toPort: 9021
     },
 	{
-        displayTitle: "kstuff5x",
+        displayTitle: "kstuff-new",
         description: "FPKG enabler",
-        fileName: "kstuff5x.elf",
-        author: "kstuff5x",
+        fileName: "kstuff-new.elf",
+        author: "kstuff-new",
         projectSource: "",
         binarySource: "",
 		toPort: 9021
